@@ -19,6 +19,7 @@ class Card extends React.Component {
       <div>
         <Spin spinning={this.state.loading} delay={500}>
           {container}
+          12345
         </Spin>
         <div style={{ marginTop: 16 }}>
           Loading state：
